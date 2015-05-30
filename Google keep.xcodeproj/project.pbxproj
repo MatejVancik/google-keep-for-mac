@@ -11,40 +11,21 @@
 		D2E40C291B18A92100DB4641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E40C281B18A92100DB4641 /* ViewController.swift */; };
 		D2E40C2B1B18A92100DB4641 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2E40C2A1B18A92100DB4641 /* Images.xcassets */; };
 		D2E40C2E1B18A92100DB4641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2E40C2C1B18A92100DB4641 /* Main.storyboard */; };
-		D2E40C3A1B18A92100DB4641 /* keepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E40C391B18A92100DB4641 /* keepTests.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D2E40C341B18A92100DB4641 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2E40C191B18A92100DB4641 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2E40C201B18A92100DB4641;
-			remoteInfo = keep;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		D2E40C211B18A92100DB4641 /* keep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E40C211B18A92100DB4641 /* Google keep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google keep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E40C251B18A92100DB4641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E40C261B18A92100DB4641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2E40C281B18A92100DB4641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2E40C2A1B18A92100DB4641 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D2E40C2D1B18A92100DB4641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D2E40C331B18A92100DB4641 /* keepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E40C381B18A92100DB4641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2E40C391B18A92100DB4641 /* keepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keepTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D2E40C1E1B18A92100DB4641 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2E40C301B18A92100DB4641 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -66,8 +47,7 @@
 		D2E40C221B18A92100DB4641 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2E40C211B18A92100DB4641 /* keep.app */,
-				D2E40C331B18A92100DB4641 /* keepTests.xctest */,
+				D2E40C211B18A92100DB4641 /* Google keep.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,9 +92,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D2E40C201B18A92100DB4641 /* keep */ = {
+		D2E40C201B18A92100DB4641 /* Google keep */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2E40C3D1B18A92100DB4641 /* Build configuration list for PBXNativeTarget "keep" */;
+			buildConfigurationList = D2E40C3D1B18A92100DB4641 /* Build configuration list for PBXNativeTarget "Google keep" */;
 			buildPhases = (
 				D2E40C1D1B18A92100DB4641 /* Sources */,
 				D2E40C1E1B18A92100DB4641 /* Frameworks */,
@@ -124,28 +104,10 @@
 			);
 			dependencies = (
 			);
-			name = keep;
+			name = "Google keep";
 			productName = keep;
-			productReference = D2E40C211B18A92100DB4641 /* keep.app */;
+			productReference = D2E40C211B18A92100DB4641 /* Google keep.app */;
 			productType = "com.apple.product-type.application";
-		};
-		D2E40C321B18A92100DB4641 /* keepTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2E40C401B18A92100DB4641 /* Build configuration list for PBXNativeTarget "keepTests" */;
-			buildPhases = (
-				D2E40C2F1B18A92100DB4641 /* Sources */,
-				D2E40C301B18A92100DB4641 /* Frameworks */,
-				D2E40C311B18A92100DB4641 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2E40C351B18A92100DB4641 /* PBXTargetDependency */,
-			);
-			name = keepTests;
-			productName = keepTests;
-			productReference = D2E40C331B18A92100DB4641 /* keepTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -159,13 +121,9 @@
 					D2E40C201B18A92100DB4641 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
-					D2E40C321B18A92100DB4641 = {
-						CreatedOnToolsVersion = 6.3.1;
-						TestTargetID = D2E40C201B18A92100DB4641;
-					};
 				};
 			};
-			buildConfigurationList = D2E40C1C1B18A92100DB4641 /* Build configuration list for PBXProject "keep" */;
+			buildConfigurationList = D2E40C1C1B18A92100DB4641 /* Build configuration list for PBXProject "Google keep" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,8 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2E40C201B18A92100DB4641 /* keep */,
-				D2E40C321B18A92100DB4641 /* keepTests */,
+				D2E40C201B18A92100DB4641 /* Google keep */,
 			);
 		};
 /* End PBXProject section */
@@ -191,13 +148,6 @@
 			files = (
 				D2E40C2B1B18A92100DB4641 /* Images.xcassets in Resources */,
 				D2E40C2E1B18A92100DB4641 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2E40C311B18A92100DB4641 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,23 +163,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2E40C2F1B18A92100DB4641 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2E40C3A1B18A92100DB4641 /* keepTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D2E40C351B18A92100DB4641 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2E40C201B18A92100DB4641 /* keep */;
-			targetProxy = D2E40C341B18A92100DB4641 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D2E40C2C1B18A92100DB4641 /* Main.storyboard */ = {
@@ -330,7 +264,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = keep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Google keep";
 			};
 			name = Debug;
 		};
@@ -341,50 +275,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = keep/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		D2E40C411B18A92100DB4641 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = keepTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keep.app/Contents/MacOS/keep";
-			};
-			name = Debug;
-		};
-		D2E40C421B18A92100DB4641 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = keepTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keep.app/Contents/MacOS/keep";
+				PRODUCT_NAME = "Google keep";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D2E40C1C1B18A92100DB4641 /* Build configuration list for PBXProject "keep" */ = {
+		D2E40C1C1B18A92100DB4641 /* Build configuration list for PBXProject "Google keep" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2E40C3B1B18A92100DB4641 /* Debug */,
@@ -393,21 +291,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2E40C3D1B18A92100DB4641 /* Build configuration list for PBXNativeTarget "keep" */ = {
+		D2E40C3D1B18A92100DB4641 /* Build configuration list for PBXNativeTarget "Google keep" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D2E40C3E1B18A92100DB4641 /* Debug */,
 				D2E40C3F1B18A92100DB4641 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D2E40C401B18A92100DB4641 /* Build configuration list for PBXNativeTarget "keepTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2E40C411B18A92100DB4641 /* Debug */,
-				D2E40C421B18A92100DB4641 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

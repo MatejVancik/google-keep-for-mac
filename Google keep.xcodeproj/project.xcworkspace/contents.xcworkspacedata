@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:keep.xcodeproj">
+      location = "self:/Users/matej/Projects/Coding/osx/keep/Google keep.xcodeproj">
    </FileRef>
 </Workspace>
